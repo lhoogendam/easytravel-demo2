@@ -7,4 +7,3 @@ attachRules:
     tags:
     - context: CONTEXTLESS
       key: $SERVICE
-dashboard: query
