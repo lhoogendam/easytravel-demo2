@@ -1,4 +1,11 @@
----
-spec_version: '0.1.0'
+spec_version: ""
+filter: {}
 comparison:
-objectives:
+  compare_with: several_results
+  include_result_with_score: pass_or_warn
+  number_of_comparison_results: 10
+  aggregate_function: avg
+objectives: []
+total_score:
+  pass: 90%
+  warning: 75%
