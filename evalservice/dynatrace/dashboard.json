@@ -35,7 +35,7 @@
       "query": "",
       "type": "",
       "CustomName": "",
-      "Markdown": "[Keptn Bridge](https://keptn.live.demo.dynatrace.com/bridge/project/easytravel/evalservice) \n- [Keptn Easytravel GitOps](https://github.com/keptn-demo-live/easytravel-demo2)\n- [✈️ Easytravel Classic](http://ec2-54-84-118-207.compute-1.amazonaws.com:8079/)\n- [⏱Tests schedule](https://github.com/keptn-demo-live/easytravel-demo2/blob/master/README.md)",
+      "Markdown": "[Keptn Bridge](https://demo2.keptn.live.demo.dynatrace.com/bridge/project/easytravel/evalservice) \n- [Keptn Easytravel GitOps](https://github.com/keptn-demo-live/easytravel-demo2)\n- [✈️ Easytravel Classic](http://ec2-54-84-118-207.compute-1.amazonaws.com:8079/)\n- [⏱Tests schedule](https://github.com/keptn-demo-live/easytravel-demo2/blob/master/README.md)",
       "bounds": {
         "top": 0,
         "left": 456,
