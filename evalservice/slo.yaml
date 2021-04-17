@@ -6,7 +6,7 @@ comparison:
   number_of_comparison_results: 2
   aggregate_function: avg
 objectives:
-- sli: teststep_rt_max_8_-_Submit_Payment
+- sli: teststep_rt_max_3_-_Login
   pass:
   - criteria:
     - <4000
@@ -20,7 +20,7 @@ objectives:
   warning: []
   weight: 1
   key_sli: false
-- sli: teststep_rt_max_3_-_Login
+- sli: teststep_rt_max_8_-_Submit_Payment
   pass:
   - criteria:
     - <4000
@@ -48,14 +48,14 @@ objectives:
   warning: []
   weight: 1
   key_sli: false
-- sli: teststep_rt_max_9_-_Finish_Payment
+- sli: teststep_rt_max_4_-_Random_Search
   pass:
   - criteria:
     - <4000
   warning: []
   weight: 1
   key_sli: false
-- sli: teststep_rt_max_4_-_Random_Search
+- sli: teststep_rt_max_9_-_Finish_Payment
   pass:
   - criteria:
     - <4000
@@ -76,14 +76,14 @@ objectives:
   warning: []
   weight: 1
   key_sli: false
-- sli: teststep_rt_avg_8_-_Submit_Payment
+- sli: teststep_rt_avg_1_-_Home_Page
   pass:
   - criteria:
     - <1000
   warning: []
   weight: 1
   key_sli: false
-- sli: teststep_rt_avg_1_-_Home_Page
+- sli: teststep_rt_avg_8_-_Submit_Payment
   pass:
   - criteria:
     - <1000
