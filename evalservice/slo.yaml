@@ -6,6 +6,13 @@ comparison:
   number_of_comparison_results: 2
   aggregate_function: avg
 objectives:
+- sli: teststep_rt_max_1_-_Home_Page
+  pass:
+  - criteria:
+    - <4000
+  warning: []
+  weight: 1
+  key_sli: false
 - sli: teststep_rt_max_8_-_Submit_Payment
   pass:
   - criteria:
@@ -14,13 +21,6 @@ objectives:
   weight: 1
   key_sli: false
 - sli: teststep_rt_max_3_-_Login
-  pass:
-  - criteria:
-    - <4000
-  warning: []
-  weight: 1
-  key_sli: false
-- sli: teststep_rt_max_1_-_Home_Page
   pass:
   - criteria:
     - <4000
