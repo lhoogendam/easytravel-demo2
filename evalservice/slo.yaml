@@ -5,7 +5,313 @@ comparison:
   include_result_with_score: pass_or_warn
   number_of_comparison_results: 2
   aggregate_function: avg
-objectives: []
+objectives:
+- sli: teststep_rt_max_3_-_Login
+  pass:
+  - criteria:
+    - <4000
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: teststep_rt_max_8_-_Submit_Payment
+  pass:
+  - criteria:
+    - <4000
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: teststep_rt_max_1_-_Home_Page
+  pass:
+  - criteria:
+    - <4000
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: teststep_rt_max_5_-_Select_Journey
+  pass:
+  - criteria:
+    - <4000
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: teststep_rt_max_2_-_CalculateRecommendations
+  pass:
+  - criteria:
+    - <4000
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: teststep_rt_max_6_-_Select_Payment
+  pass:
+  - criteria:
+    - <4000
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: teststep_rt_max_4_-_Random_Search
+  pass:
+  - criteria:
+    - <4000
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: teststep_rt_max_9_-_Finish_Payment
+  pass:
+  - criteria:
+    - <4000
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: teststep_rt_max_7_-_Mock_Creditcard_Number
+  pass:
+  - criteria:
+    - <4000
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: teststep_rt_avg_3_-_Login
+  pass:
+  - criteria:
+    - <1000
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: teststep_rt_avg_8_-_Submit_Payment
+  pass:
+  - criteria:
+    - <1000
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: teststep_rt_avg_1_-_Home_Page
+  pass:
+  - criteria:
+    - <1000
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: teststep_rt_avg_5_-_Select_Journey
+  pass:
+  - criteria:
+    - <1000
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: teststep_rt_avg_2_-_CalculateRecommendations
+  pass:
+  - criteria:
+    - <1000
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: teststep_rt_avg_6_-_Select_Payment
+  pass:
+  - criteria:
+    - <1000
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: teststep_rt_avg_4_-_Random_Search
+  pass:
+  - criteria:
+    - <1000
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: teststep_rt_avg_9_-_Finish_Payment
+  pass:
+  - criteria:
+    - <1000
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: teststep_rt_avg_7_-_Mock_Creditcard_Number
+  pass:
+  - criteria:
+    - <1000
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: teststep_exceptions_3_-_Login
+  pass:
+  - criteria:
+    - <10
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: teststep_exceptions_8_-_Submit_Payment
+  pass:
+  - criteria:
+    - <10
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: teststep_exceptions_1_-_Home_Page
+  pass:
+  - criteria:
+    - <10
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: teststep_exceptions_5_-_Select_Journey
+  pass:
+  - criteria:
+    - <10
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: teststep_exceptions_2_-_CalculateRecommendations
+  pass:
+  - criteria:
+    - <10
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: teststep_exceptions_6_-_Select_Payment
+  pass:
+  - criteria:
+    - <10
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: teststep_exceptions_4_-_Random_Search
+  pass:
+  - criteria:
+    - <10
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: teststep_exceptions_9_-_Finish_Payment
+  pass:
+  - criteria:
+    - <10
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: teststep_exceptions_7_-_Mock_Creditcard_Number
+  pass:
+  - criteria:
+    - <10
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p95
+  pass:
+  - criteria:
+    - <+10%
+    - <1500
+  warning:
+  - criteria:
+    - <2000
+  weight: 2
+  key_sli: false
+- sli: throughput_svc
+  pass:
+  - criteria:
+    - '>3000'
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: error_count
+  pass:
+  - criteria:
+    - <1
+  warning:
+  - criteria:
+    - <2
+  weight: 2
+  key_sli: false
+- sli: svc_rt_p50
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: db_calls
+  pass:
+  - criteria:
+    - <5
+  warning:
+  - criteria:
+    - '>5'
+  weight: 1
+  key_sli: false
+- sli: non_db_calls
+  pass:
+  - criteria:
+    - <+10%
+  warning:
+  - criteria:
+    - '>+10%'
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <+50%
+  weight: 1
+  key_sli: false
+- sli: lock_time
+  pass:
+  - criteria:
+    - <+5%
+  warning:
+  - criteria:
+    - '>+5%'
+  weight: 1
+  key_sli: false
+- sli: cpu_time
+  pass:
+  - criteria:
+    - <+5%
+  warning:
+  - criteria:
+    - '>+5%'
+  weight: 1
+  key_sli: false
+- sli: io_time
+  pass:
+  - criteria:
+    - <+5%
+  warning:
+  - criteria:
+    - '>+5%'
+  weight: 1
+  key_sli: false
+- sli: mem_per_api_Apache
+  pass:
+  - criteria:
+    - <+20%
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: mem_per_api_Java
+  pass:
+  - criteria:
+    - <+20%
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: mem_per_api_JRE
+  pass:
+  - criteria:
+    - <+20%
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: jvm_cpu
+  pass:
+  - criteria:
+    - <+20%
+  warning: []
+  weight: 1
+  key_sli: false
 total_score:
   pass: 90%
   warning: 75%
