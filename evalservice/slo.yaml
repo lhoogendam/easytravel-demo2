@@ -13,14 +13,14 @@ objectives:
   warning: []
   weight: 1
   key_sli: false
-- sli: teststep_rt_max_8_-_Submit_Payment
+- sli: teststep_rt_max_1_-_Home_Page
   pass:
   - criteria:
     - <4000
   warning: []
   weight: 1
   key_sli: false
-- sli: teststep_rt_max_1_-_Home_Page
+- sli: teststep_rt_max_8_-_Submit_Payment
   pass:
   - criteria:
     - <4000
@@ -139,14 +139,14 @@ objectives:
   warning: []
   weight: 1
   key_sli: false
-- sli: teststep_exceptions_1_-_Home_Page
+- sli: teststep_exceptions_8_-_Submit_Payment
   pass:
   - criteria:
     - <10
   warning: []
   weight: 1
   key_sli: false
-- sli: teststep_exceptions_8_-_Submit_Payment
+- sli: teststep_exceptions_1_-_Home_Page
   pass:
   - criteria:
     - <10
